@@ -1,0 +1,40 @@
+.social {
+  width: 30px;
+  position: fixed;
+  right: 0;
+  top: 45%;
+  padding: 7px;
+  padding-bottom: 2px;
+  border-radius: 4px 0 0 4px;
+  box-shadow: 0 0 10px rgba(0, 0, 0);
+  background-color: var(--white);
+}
+.social img {
+  opacity: 0.2;
+  transition: opacity 0.2s;
+}
+.social img:hover {
+  opacity: 1;
+  cursor: pointer;
+}
+
+.chevron {
+  position: fixed;
+  width: 25px;
+  height: 25px;
+  bottom: 60px;
+  right: -65px;
+  transform: rotate(45deg);
+  padding: 16px  20px 20px 16px;
+  background-color: rgba(0,0,0, 0.2);
+  border-radius: 50%;
+  cursor: pointer;
+  transition: right 1s ease;
+}
+.chevron div {
+  width: 100%;
+  height: 100%;
+  border-top: 10px solid var(--dark-green);
+  border-left: 10px solid var(--dark-green);
+  border-radius: 3px;
+}

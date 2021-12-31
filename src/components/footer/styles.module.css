@@ -1,0 +1,9 @@
+footer {
+  background-color: var(--black);
+  color: var(--dark-green);
+  border-top: 2px solid var(--dark-grey);
+  padding: 10px 0;
+}
+footer p {
+  font-size: 1em;
+}

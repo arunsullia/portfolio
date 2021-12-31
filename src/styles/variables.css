@@ -1,0 +1,21 @@
+:root {
+    --a: #8ee4af;
+    --b: #edf5e1;
+    --c: #5cdb95;
+    --d: #907163;
+    --e: #379683;
+  
+    --dark-green: #61892f;
+    --light-green: #86c232;
+    --black: #222629;
+    --dark-grey: #474b4f;
+    --light-grey: #e6e3e3;
+  
+    --blackish: #202020;
+    --dark-grey: #3f3f3f;
+    --medium-grey: #b1aeae;
+    --egg-yellow: #e0cf30;
+    --white: #ffffff;
+
+    --error: #fa6060;
+  }

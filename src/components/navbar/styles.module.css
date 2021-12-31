@@ -1,0 +1,131 @@
+header {
+    background-color: var(--black);
+    padding-top: 20px;
+  }
+  
+  header nav {
+    max-width: 960px;
+    position: relative;
+    margin: 0 auto;
+    padding: 0 10px;
+  }
+  
+  nav h2 {
+    text-align: center;
+    color: var(--white);
+  }
+  
+  div.menuIcon {
+    position: absolute;
+    top: 0;
+    right: 10px;
+  }
+  div.menuIcon div {
+    width: 30px;
+    height: 5px;
+    margin: 5px 0;
+    background-color: var(--dark-green);
+  }
+  div.menuIcon:hover {
+    cursor: pointer;
+  }
+  
+  .mobMenu {
+    transition: height 0.5s;
+    height: 0;
+    overflow: hidden;
+    margin-top: 20px;
+  }
+  .toggleMenu {
+    height: 200px;
+    padding-bottom: 20px;
+  }
+  nav ul li {
+    color: var(--dark-green);
+    padding: 5px 10px;
+    transition: background-color 0.2s ease-in;
+  }
+  nav ul li:hover {
+    background-color: var(--dark-grey);
+    color: var(--light-green);
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  nav form {
+    display: flex;
+    margin: 5px auto;
+    max-width: 500px;
+  }
+  nav form input[type="text"] {
+    flex: 2;
+    border: 2px solid var(--dark-green);
+    border-radius: 2px;
+    padding: 10px 5px;
+    margin-right: 10px;
+    background-color: rgba(0, 0, 0, 0.2);
+    color: var(--white);
+    outline: none !important;
+  }
+  nav form button {
+    flex: 1;
+    background-color: rgba(0, 0, 0, 0.2);
+    border: 2px solid var(--dark-green);
+    color: var(--dark-green);
+    font-size: 1em;
+    font-weight: bold;
+    border-radius: 50px;
+    transition: background-color 0.2s;
+  }
+  nav form button:hover {
+    background-color: var(--light-green);
+    border: 2px solid var(--light-green);
+    color: var(--white);
+    cursor: pointer;
+  }
+
+  @media screen and (min-width: 900px) {
+    .menuIcon {
+      display: none;
+    }
+    header {
+      padding: 20px 0;
+    }
+    nav {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+    .mobMenu {
+      display: flex;
+      align-items: center;
+      height: auto;
+      margin: 0;
+    }
+    ul {
+      display: flex;
+      
+    }
+    nav form{
+      margin: 0 auto;
+    }
+    nav form input[type="text"] {
+      margin: 0px;
+      margin-left: 20px;
+      border-radius: 20px 0 0 20px;
+      padding: 5px;
+      padding-left: 10px;
+      width:200px;
+      border-right: none;
+    }
+    nav form button {
+      flex: 1;
+      background-color: var(--dark-green);
+      color: var(--white);
+      border-radius: 0 20px 20px 0;
+    }
+  
+    .toggleMenu {
+      padding-bottom: 0;
+    }
+  }
