@@ -2,7 +2,7 @@ import React from "react";
 import s from "./styles.module.css";
 import traffic from "../../assets/traffic.png";
 import todo from "../../assets/todo.png";
-import pic3 from "../../assets/pic-3.jpg";
+import ticTacToe from "../../assets/tic-tac-toe.png";
 import pic4 from "../../assets/pic-4.jpg";
 import pic5 from "../../assets/pic-5.jpg";
 import pic6 from "../../assets/pic-6.jpg";
@@ -40,9 +40,12 @@ function Projects({ projectsRef }) {
             <div className={s.projectTitle}>Todo List</div>
           </div>
 
-          <div className={s.projectContainer}>
-            <img src={pic3} alt="project-img" />
-            <div className={s.projectTitle}>project 3</div>
+          <div
+            className={s.projectContainer}
+            onClick={() => navigateTo(projectLinks.ticTacToe)}
+          >
+            <img src={ticTacToe} alt="tic-tac-toe-img" />
+            <div className={s.projectTitle}>Tic Tac Toe</div>
           </div>
 
           <div className={s.projectContainer}>
