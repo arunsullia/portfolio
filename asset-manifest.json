@@ -1,0 +1,38 @@
+{
+  "files": {
+    "main.css": "/github.io/portfolio/static/css/main.f88c2f4a.chunk.css",
+    "main.js": "/github.io/portfolio/static/js/main.bf4103f8.chunk.js",
+    "main.js.map": "/github.io/portfolio/static/js/main.bf4103f8.chunk.js.map",
+    "runtime-main.js": "/github.io/portfolio/static/js/runtime-main.48d2f2bb.js",
+    "runtime-main.js.map": "/github.io/portfolio/static/js/runtime-main.48d2f2bb.js.map",
+    "static/js/2.37a845f3.chunk.js": "/github.io/portfolio/static/js/2.37a845f3.chunk.js",
+    "static/js/2.37a845f3.chunk.js.map": "/github.io/portfolio/static/js/2.37a845f3.chunk.js.map",
+    "static/js/3.0baa5375.chunk.js": "/github.io/portfolio/static/js/3.0baa5375.chunk.js",
+    "static/js/3.0baa5375.chunk.js.map": "/github.io/portfolio/static/js/3.0baa5375.chunk.js.map",
+    "index.html": "/github.io/portfolio/index.html",
+    "static/css/main.f88c2f4a.chunk.css.map": "/github.io/portfolio/static/css/main.f88c2f4a.chunk.css.map",
+    "static/js/2.37a845f3.chunk.js.LICENSE.txt": "/github.io/portfolio/static/js/2.37a845f3.chunk.js.LICENSE.txt",
+    "static/media/facebook.2ca05ac4.svg": "/github.io/portfolio/static/media/facebook.2ca05ac4.svg",
+    "static/media/instagram.f0cfa30d.svg": "/github.io/portfolio/static/media/instagram.f0cfa30d.svg",
+    "static/media/linkedin.03f1d164.svg": "/github.io/portfolio/static/media/linkedin.03f1d164.svg",
+    "static/media/pic-3.318a8cb5.jpg": "/github.io/portfolio/static/media/pic-3.318a8cb5.jpg",
+    "static/media/pic-4.dd64e95b.jpg": "/github.io/portfolio/static/media/pic-4.dd64e95b.jpg",
+    "static/media/pic-5.24ad5e18.jpg": "/github.io/portfolio/static/media/pic-5.24ad5e18.jpg",
+    "static/media/pic-6.254ee6c1.jpg": "/github.io/portfolio/static/media/pic-6.254ee6c1.jpg",
+    "static/media/pic-7.b09da6d9.jpg": "/github.io/portfolio/static/media/pic-7.b09da6d9.jpg",
+    "static/media/pic-8.c0c63675.jpg": "/github.io/portfolio/static/media/pic-8.c0c63675.jpg",
+    "static/media/profile.c1273950.jpg": "/github.io/portfolio/static/media/profile.c1273950.jpg",
+    "static/media/service-1.45faf00c.png": "/github.io/portfolio/static/media/service-1.45faf00c.png",
+    "static/media/service-2.fe929d5f.png": "/github.io/portfolio/static/media/service-2.fe929d5f.png",
+    "static/media/service-3.d2c976f6.png": "/github.io/portfolio/static/media/service-3.d2c976f6.png",
+    "static/media/todo.f9d19577.png": "/github.io/portfolio/static/media/todo.f9d19577.png",
+    "static/media/traffic.500de47d.png": "/github.io/portfolio/static/media/traffic.500de47d.png",
+    "static/media/twitter.e7886f46.svg": "/github.io/portfolio/static/media/twitter.e7886f46.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.48d2f2bb.js",
+    "static/js/2.37a845f3.chunk.js",
+    "static/css/main.f88c2f4a.chunk.css",
+    "static/js/main.bf4103f8.chunk.js"
+  ]
+}
