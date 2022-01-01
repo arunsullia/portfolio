@@ -18,7 +18,8 @@ function About() {
       id: 3,
       skill: "css",
       rating: 0.6,
-    },{
+    },
+    {
       id: 4,
       skill: "React js",
       rating: 0.65,
@@ -42,11 +43,12 @@ function About() {
         <div className={s.profile}>
           <img src={profilePic} alt="profile-pic" />
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque
-            incidunt distinctio, sunt dolor nobis maiores minus illum temporibus
-            non iusto assumenda sed eaque fuga voluptatem, blanditiis explicabo
-            deserunt officiis dolores asperiores quidem? Nobis iste repellendus
-            quisquam maiores illo dolores commodi unde dignissimos, neque
+            Hi, my name is Arun. I am a front end developer and a programmer
+            living in Bangalore, India. I make web applications, usually with
+            javascript. I have diverse set of skills, ranging from design, to
+            HTML + CSS + javascript, ReactJS UI development. My expertise is in
+            the area of responsive design. With every line of code, I strive to
+            make the weeb a beautiful palce.
           </p>
         </div>
         <h2>Skills</h2>
@@ -60,7 +62,10 @@ function About() {
                     <li>{item.rating * 100}%</li>
                   </ul>
                   <div className={s.fillPath}>
-                    <div className={s.percentageFill} style={{width:`${item.rating * 100}%`}}></div>
+                    <div
+                      className={s.percentageFill}
+                      style={{ width: `${item.rating * 100}%` }}
+                    ></div>
                   </div>
                 </div>
               );
